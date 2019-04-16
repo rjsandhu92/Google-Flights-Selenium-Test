@@ -5,7 +5,6 @@
 - Download and install the Java 8 JDK.
 - Download and install Git: https://git-scm.com/downloads
 - Download and install Maven. Installation instructions can be found here (https://www.mkyong.com/maven/how-to-install-maven-in-windows/)
-- ChromeDriver
 - Download and install Intellij Community Edition (https://www.jetbrains.com/idea/download/#section=windows)
 - Enable Auto Import of Maven dependencies
 
