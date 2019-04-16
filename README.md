@@ -6,10 +6,11 @@
 - Download and install Git: https://git-scm.com/downloads
 - Download and install Maven. Installation instructions can be found here (https://www.mkyong.com/maven/how-to-install-maven-in-windows/)
 - Download and install Intellij Community Edition (https://www.jetbrains.com/idea/download/#section=windows)
-- Enable Auto Import of Maven dependencies
 
 
 In order to get your project working in IntelliJ, please follow the steps below:
+
+Open IntelliJ
 
 Select Import Project
 
@@ -17,7 +18,7 @@ Select the directory cloned in the Git clone process
 
 Import project from external model: Maven → click Next
 
-click Next
+Click Next
 
 Select ALL profiles available → click Next
 
@@ -25,7 +26,7 @@ Select the avilable SNAPSHOT → click Next
 
 Leave SDK selection unchanged → click Next
 
-click Finish
+Click Finish
 
 Enable Auto Import of Maven dependencies
 
@@ -39,6 +40,6 @@ To run the tests in IntelliJ, please do following
 
 Navigate to java -> tests and right-click GoogleFLightsTest and select Run test
 
-Else to run the test from command line, use below command:
+Else to run the test from command line (terminal in IntelliJ), use below command:
 
 mvn clean test
