@@ -8,7 +8,7 @@
 - Download and install Intellij Community Edition (https://www.jetbrains.com/idea/download/#section=windows)
 
 
-In order to get your project working in IntelliJ, please follow the steps below:
+## In order to get your project working in IntelliJ, please follow the steps below:
 
 Open IntelliJ
 
@@ -36,10 +36,10 @@ Rebuild the project (if you experience any problems you may need to set Intellij
 
 Run tests for the first time by executing the testng.xml file.
 
-To run the tests in IntelliJ, please do following
+## To run the tests in IntelliJ, please do following
 
 Navigate to java -> tests and right-click GoogleFLightsTest and select Run test
 
-Else to run the test from command line (terminal in IntelliJ), use below command:
+## Else to run the test from command line (terminal in IntelliJ), use below command:
 
 mvn clean test
