@@ -29,7 +29,17 @@ Leave SDK selection unchanged → click Next
 click Finish
 
 Enable Auto Import of Maven dependencies
+
 Add the untracked POM file found to project (accept this)
 
 Rebuild the project (if you experience any problems you may need to set Intellij to use JDK 8 for the language level as well as setting that for the project and module level)
+
 Run tests for the first time by executing the testng.xml file.
+
+To run the tests in IntelliJ, please do following
+
+Navigate to java -> tests and right-click GoogleFLightsTest and select Run test
+
+Else to run the test from command line, use below command:
+
+mvn clean test
