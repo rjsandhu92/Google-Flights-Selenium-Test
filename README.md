@@ -13,12 +13,19 @@
 In order to get your project working in IntelliJ, please follow the steps below:
 
 Select Import Project
+
 Select the directory cloned in the Git clone process
+
 Import project from external model: Maven → click Next
+
 click Next
+
 Select ALL profiles available → click Next
+
 Select the avilable SNAPSHOT → click Next
+
 Leave SDK selection unchanged → click Next
+
 click Finish
 
 Enable Auto Import of Maven dependencies
